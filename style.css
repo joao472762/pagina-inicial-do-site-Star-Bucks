@@ -93,6 +93,7 @@ nav{margin-top: 30px}
 @media screen and (max-width: 770px){
     body{
         flex-direction: column;
+        overflow: auto;
 
     }
     #circle{
@@ -137,9 +138,6 @@ nav{margin-top: 30px}
     }
 }
 @media screen and (max-width: 400px) {
-    #parte1{
-        background: aqua;
-    }
     nav{
         display: flex;
         flex-direction: column;
