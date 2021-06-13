@@ -137,8 +137,6 @@ nav{margin-top: 30px}
     }
 }
 @media screen and (max-width: 400px) {
-    #parte1{
-        background: aqua;
     }
     nav{
         display: flex;
