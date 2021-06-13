@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,700;1,200;1,300&display=swap');
+*{
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    display: flex;
+}
+#img2{
+    width: 220px;
+}
+#parte1{
+    width: 65%;
+}
+#parte2{
+    width: 35%;
+}
+header{
+    width: 95%;
+    margin: 0 auto;
+}
+#img{
+    margin-top: 10px;
+    margin-left: 20%;
+}
+#conteudo{
+    width: 95%;
+    margin: 5.3em auto 0 auto;
+}
+h1,p{
+    margin-left: 20%;
+}
+h1{
+    font-size: 2.1em;
+    margin-bottom: 1em;
+}
+span{
+    color: #005a3d;
+}
+p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+input[type=button]{
+    background-color: #005a3d;
+    padding: 11px;
+    color: white;
+    border-radius: 9px;
+    margin: 11px 0px 0px 20%;
+}
+nav{margin-top: 30px}
+.more{
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+    margin-left: 20px;
+}
+.more:nth-of-type(1){
+    margin-left: 0;
+    font-size: 1.1em;
+}
+#copo{
+    display: flex;
+    margin-top: 10em;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-top: 4em;
+    margin-right: 8px;
+}
+#circle{
+    position: absolute;
+    top: 7em;
+    left: 70%;
+    width: 950px;
+    height: 950px;
+    background: #005a3d;
+    border-radius: 100%;
+    z-index: -1;
+}
+#img2{
+    margin-left: 9%;   
+}
+@media screen and (max-width: 770px){
+    body{
+        flex-direction: column;
+        overflow: auto;
+    }
+    #circle{
+        display: none;
+    }
+    #parte1{width: 98%;
+    margin: 0 auto;}
+    img,h1, p, input[type=button]{
+        margin-left: 0;
+    }
+    #img{
+        margin: 10px auto;
+    }
+    nav{
+        position: absolute;
+        right: 18%;
+        top: 0;
+        font-size: 1.3em;
+    }
+    #img2{
+        position: absolute;
+        top: 65px;
+        right: 15%;
+    }
+    h1{
+        margin-top: 4em;
+    }
+    p{
+        margin: 11px auto 1.4em auto;
+    }
+}
+@media screen and (max-width:612px){
+    nav{
+        font-size: 0.9em;
+        right: 0;
+        margin: 30px 2em;
+    }
+    #img2{
+        right: 0;
+        width: 120px;
+        margin: 9px 1em 9px 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #parte1{
+        background: aqua;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 6em;
+        font-size: 1.2em;
+    }
+    
+}
+    
