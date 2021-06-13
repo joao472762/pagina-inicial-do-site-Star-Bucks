@@ -93,6 +93,7 @@ nav{margin-top: 30px}
 @media screen and (max-width: 770px){
     body{
         flex-direction: column;
+        overflow: auto;
 
     }
     #circle{
@@ -145,6 +146,3 @@ nav{margin-top: 30px}
         top: 6em;
         font-size: 1.2em;
     }
-    
-}
-    
